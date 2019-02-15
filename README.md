@@ -1,14 +1,17 @@
-# MarkCollab Editor
+---
+code_name: TM-P_MARK-COLLAB_WEB_VUE_TSC_PART
+create_date: 2017-06
+author: TM
+author_site: timsmanter.net
+editor: Visual Studio Code
+language: TypeScript
+framework: Vue.js
+locale: en_US
+license: MIT
+status: [Dev, Sample]
+---
 
-* @Author: TimsManter
-* @AuthorSite: [TimsManter.NET](http://timsmanter.net/)
-* @CreateDate: 2017-06
-* @Editor: Visual Studio Code
-* @Language: TypeScript
-* @Framework: Vue.js
-* @Locale: en_US
-* @License: n/a yet
-* @Status: Dev | Active
+# MarkCollab Editor
 
 <!-- TOC -->
 
