@@ -1,0 +1,61 @@
+{
+  "version": "2.0.0",
+  "suppressTaskName": true,
+  "tasks": [
+    {
+      "taskName": "install",
+      "command": "npm",
+      "args": [
+        "install"
+      ]
+    },
+    {
+      "taskName": "update",
+      "command": "npm",
+      "args": [
+        "update"
+      ]
+    },
+    {
+      "taskName": "test",
+      "command": "npm",
+      "args": [
+        "test"
+      ]
+    },
+    {
+      "taskName": "watch",
+      "command": "webpack",
+      "args": [
+        "--watch"
+      ]
+    },
+    {
+      "taskName": "build:prod",
+      "group": "build",
+      "command": "webpack",
+      "args": [
+        "--env=prod"
+      ]
+    },
+    {
+      "taskName": "build:dev",
+      "group": "build",
+      "command": "webpack",
+      "args": [
+        "--env=dev"
+      ]
+    },
+    {
+      "taskName": "start",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "command": "npm",
+      "args": [
+        "start"
+      ]
+    }
+  ]
+}

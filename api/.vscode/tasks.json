@@ -1,0 +1,43 @@
+{
+    "version": "0.1.0",
+    "command": "dotnet",
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": [
+                "${workspaceRoot}/TM-P_MARKCOLLAB_WEB_ASC_CSH_PART.csproj"
+            ],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "dbupdate",
+            "args": [
+                "ef",
+                "database",
+                "update"
+            ],
+            "suppressTaskName": true
+        },
+        {
+            "taskName": "dbdrop",
+            "args": [
+                "ef",
+                "database",
+                "drop",
+                "--force"
+            ],
+            "suppressTaskName": true
+        },
+        {
+            "taskName": "removemig",
+            "args": [
+                "ef",
+                "migrations",
+                "remove",
+                "--force"
+            ],
+            "suppressTaskName": true
+        }
+    ]
+}
