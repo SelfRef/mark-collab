@@ -1,36 +1,25 @@
 ---
-code_name: TM-W_MARK-COLLAB_WEB_VUE_TSC_PART
 create_date: 2017-06
-author: TM
-author_site: timsmanter.net
-editor: Visual Studio Code
+archive_date: 2017-07
 language: [C#, TypeScript]
 framework: [.NET Core, ASP.NET Core, Entity Framework Core, Vue.js]
 locale: en_US
+editor: Visual Studio Code
 license: MIT
-status: [Dev, Sample]
+category: [PoC, Utility, Web]
+dev_status: Archive
 ---
 
 # MarkCollab Editor
 
-- [Overview](#overview)
-- [Screenshots](#screenshots)
-- [API Reference](#api-reference)
-  - [Get all documents](#get-all-documents)
-  - [Get single document of {id}](#get-single-document-of-id)
-  - [Create new document with title in body](#create-new-document-with-title-in-body)
-  - [Update document content in body](#update-document-content-in-body)
-  - [Update document title in body](#update-document-title-in-body)
-  - [Delete document of {id}](#delete-document-of-id)
-
-## Overview
+## Description
 
 MarkCollab is a simple collaboration tool for creating various types of documents using Markdown syntax. The main idea is to create a self-hosted Web Application that contains everything to create Markdown documents by many people in the same time.
 
 ## Screenshots
 
-![Editor View](docs/screenshots/editor.png)
-![Sidenav](docs/screenshots/sidenav.png)
+![Editor View](web/docs/screenshots/editor.png)
+![Sidenav](web/docs/screenshots/sidenav.png)
 
 ## API Reference
 
